@@ -165,7 +165,7 @@ export const translations: Record<Locale, Translations> = {
       subtitle: 'GENETICS THAT EMPOWER',
       pharmaceutical: 'PHARMACEUTICAL-GRADE CANNABIS GENETICS.',
       hlvdFree: 'HLvD-FREE.',
-      gacpCertified: 'GACP-CERTIFIED.',
+      gacpCertified: 'EU GACP-CERTIFIED.',
       experience: '20+ YEARS EXPERIENCE',
     },
     services: {
@@ -209,7 +209,7 @@ export const translations: Record<Locale, Translations> = {
         description: 'All genetics tested and certified free of harmful pathogens',
       },
       gacpCertified: {
-        title: 'GHCP-certified processes',
+        title: 'EU GACP-certified processes',
         description: 'Good Horticultural and Collection Practices certification',
       },
       experience: {
@@ -252,7 +252,7 @@ export const translations: Record<Locale, Translations> = {
       },
       qualityAssurance: {
         title: 'Quality Assurance',
-        description: 'GACP-certified quality control processes throughout the entire production cycle.',
+        description: 'EU GACP-certified quality control processes throughout the entire production cycle.',
       },
       packaging: {
         title: 'Packaging & Documentation',
@@ -305,7 +305,7 @@ export const translations: Record<Locale, Translations> = {
       subtitle: 'GENÉTICAS QUE EMPODERAN',
       pharmaceutical: 'GENÉTICAS DE CANNABIS DE GRADO FARMACÉUTICO.',
       hlvdFree: 'LIBRE DE HLvD.',
-      gacpCertified: 'CERTIFICADO GACP.',
+      gacpCertified: 'CERTIFICADO EU GACP.',
       experience: '20+ AÑOS DE EXPERIENCIA',
     },
     services: {
@@ -349,7 +349,7 @@ export const translations: Record<Locale, Translations> = {
         description: 'Toda la genética probada y certificada libre de patógenos dañinos',
       },
       gacpCertified: {
-        title: 'Procesos certificados GHCP',
+        title: 'Procesos certificados EU GACP',
         description: 'Certificación de Buenas Prácticas Hortícolas y de Recolección',
       },
       experience: {
@@ -392,7 +392,7 @@ export const translations: Record<Locale, Translations> = {
       },
       qualityAssurance: {
         title: 'Aseguramiento de Calidad',
-        description: 'Procesos de control de calidad certificados GACP durante todo el ciclo de producción.',
+        description: 'Procesos de control de calidad certificados EU GACP durante todo el ciclo de producción.',
       },
       packaging: {
         title: 'Empaque y Documentación',

@@ -20,7 +20,7 @@ export function ProcessEs() {
     {
       icon: <Award className="h-8 w-8" />,
       title: "Aseguramiento de Calidad",
-      description: "Procesos de control de calidad certificados GACP durante todo el ciclo de producción.",
+      description: "Procesos de control de calidad certificados EU GACP durante todo el ciclo de producción.",
     },
     {
       icon: <Package className="h-8 w-8" />,

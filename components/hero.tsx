@@ -18,7 +18,7 @@ export function Hero() {
           <div className="text-sm md:text-lg text-fenopharm-dark mb-8 leading-relaxed">
             <p>PHARMACEUTICAL-GRADE CANNABIS GENETICS.</p>
             <p>HLvD-FREE.</p>
-            <p>GACP-CERTIFIED.</p>
+            <p>EU GACP-CERTIFIED.</p>
             <p>20+ YEARS EXPERIENCE</p>
           </div>
         </div>

@@ -9,7 +9,7 @@ export function WhyChoose() {
     },
     {
       icon: <Award className="h-6 w-6" />,
-      title: "GHCP-certified processes",
+      title: "EU GACP-certified processes",
       description: "Good Horticultural and Collection Practices certification",
     },
     {
