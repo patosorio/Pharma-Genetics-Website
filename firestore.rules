@@ -1,0 +1,38 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /subscribers/{subscriberId} {
+      allow read: if false;
+      allow create: if request.resource.data.keys().hasAll(['email', 'ip', 'subscribedAt', 'createdAt', 'consentGiven', 'consentTimestamp'])
+                   && request.resource.data.email is string
+                   && request.resource.data.email.matches('^[^@]+@[^@]+\\.[^@]+$')
+                   && request.resource.data.ip is string
+                   && request.resource.data.subscribedAt is timestamp
+                   && request.resource.data.createdAt is timestamp
+                   && request.resource.data.consentGiven == true
+                   && request.resource.data.consentTimestamp is timestamp;
+    }
+    
+    match /contacts/{contactId} {
+      allow read: if false;
+      allow create: if request.resource.data.keys().hasAll(['name', 'email', 'message', 'createdAt', 'status'])
+                   && request.resource.data.name is string
+                   && request.resource.data.name.size() > 0
+                   && request.resource.data.name.size() <= 100
+                   && request.resource.data.email is string
+                   && request.resource.data.email.matches('^[^@]+@[^@]+\\.[^@]+$')
+                   && request.resource.data.message is string
+                   && request.resource.data.message.size() > 0
+                   && request.resource.data.message.size() <= 5000
+                   && request.resource.data.createdAt is timestamp
+                   && request.resource.data.status == 'new'
+                   && (!request.resource.data.keys().hasAny(['company']) || request.resource.data.company is string);
+    }
+    
+    match /catalogue/{catalogueId} {
+      allow read: if true;
+      allow write: if false;
+    }
+  }
+}
