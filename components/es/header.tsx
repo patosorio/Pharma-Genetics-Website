@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button"
 import { LanguageSwitcher } from "@/components/language-switcher"
 import { Menu, X } from "lucide-react"
 
-export function Header() {
+export function HeaderEs() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   const scrollToSection = (sectionId: string) => {
@@ -23,10 +23,10 @@ export function Header() {
   }
 
   const navItems = [
-    { label: "ABOUT US", id: "why-choose" },
-    { label: "SERVICES", id: "services" },
-    { label: "CATALOGUE", id: "catalogue" },
-    { label: "CONTACT", id: "contact" },
+    { label: "SOBRE NOSOTROS", id: "why-choose" },
+    { label: "SERVICIOS", id: "services" },
+    { label: "CATÁLOGO", id: "catalogue" },
+    { label: "CONTACTO", id: "contact" },
   ]
 
   return (
@@ -59,7 +59,7 @@ export function Header() {
               className="bg-fenopharm-red hover:bg-fenopharm-red/90 text-fenopharm-light text-md md:text-lg hidden md:block"
               style={{ lineHeight: '1', display: 'flex', alignItems: 'center', justifyContent: 'center' }}
             >
-              Consultation
+              Consulta
             </Button>
             
             {/* Mobile Menu Button */}
@@ -91,7 +91,7 @@ export function Header() {
                 onClick={() => scrollToSection("contact")}
                 className="bg-fenopharm-red hover:bg-fenopharm-red/90 text-white font-light w-full"
               >
-                CONSULTATION
+                CONSULTA
               </Button>
             </div>
           </nav>
@@ -100,3 +100,4 @@ export function Header() {
     </header>
   )
 }
+
