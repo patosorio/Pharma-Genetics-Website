@@ -17,7 +17,7 @@ export function HeroEs() {
           <div className="text-sm md:text-lg text-fenopharm-dark mb-8 leading-relaxed">
             <p>GENÉTICAS DE CANNABIS DE GRADO FARMACÉUTICO.</p>
             <p>LIBRE DE HLvD.</p>
-            <p>CERTIFICADO GACP.</p>
+            <p>CERTIFICADO EU GACP.</p>
             <p>20+ AÑOS DE EXPERIENCIA</p>
           </div>
         </div>

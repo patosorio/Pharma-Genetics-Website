@@ -21,7 +21,7 @@ export function Process() {
     {
       icon: <Award className="h-8 w-8" />,
       title: "Quality Assurance",
-      description: "GACP-certified quality control processes throughout the entire production cycle.",
+      description: "EU GACP-certified quality control processes throughout the entire production cycle.",
     },
     {
       icon: <Package className="h-8 w-8" />,
