@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Fenopharm
 
-## Getting Started
+**Official website for Fenopharm - Premium Cannabis Genetics**
 
-First, run the development server:
+## About
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Fenopharm is a premier cannabis genetics company specializing in high-quality, professionally bred cannabis strains. This website serves as the company's digital presence, showcasing our exclusive genetics catalogue and providing information about our breeding programs, services, and locations.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Genetics Catalogue**: Interactive showcase of our premium cannabis strains with detailed information including:
+  - Lineage and breeder information
+  - THC/CBD content and terpene profiles
+  - Plant morphology and growth characteristics
+  - Cultivation recommendations and yield expectations
+  
+- **Contact System**: Professional inquiry form for business communications
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Newsletter Subscription**: Stay updated with new genetics releases and company news
 
-## Learn More
+- **Location Information**: Find our physical locations and distribution points
 
-To learn more about Next.js, take a look at the following resources:
+## Technology
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Built with Next.js 15, React 19, TypeScript, and Tailwind CSS. Data is managed through Firebase/Firestore for real-time updates and scalability.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Legal
 
-## Deploy on Vercel
+This website, its code, design, and all associated materials are proprietary and confidential property of Fenopharm. All rights reserved.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+See [LICENSE](./LICENSE) for full terms.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+© 2025 Fenopharm. All Rights Reserved.
